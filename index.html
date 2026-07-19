@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="النيل للمقاولات العامة وحفر الآبار - توريد وتركيب الطلمبات الغاطسة ومواتير آبار المياه الجوفية">
+    <title>Elnile | النيل للمقاولات العامة وحفر الآبار</title>
+
+    <!-- Google Fonts - Tajawal for Arabic, Inter for English -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ============ HEADER / NAVIGATION ============ -->
+    <header id="main-header" class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo -->
+                <a href="#" class="logo" id="logo">
+                    <img src="our images/logo.png" alt="Elnile Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="logo-name" data-ar="النيل" data-en="Elnile">النيل</span>
+                        <span class="logo-tagline" data-ar="للمقاولات العامة وحفر الآبار"
+                            data-en="General Contracting & Well Drilling">للمقاولات العامة وحفر الآبار</span>
+                    </div>
+                </a>
+
+                <!-- Nav Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#" class="nav-link active" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+                    <li><a href="about.html" class="nav-link" data-ar="من نحن" data-en="About Us">من نحن</a></li>
+                    <li>
+                        <a href="services.html" class="nav-link" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+                    </li>
+                    <li><a href="projects.html" class="nav-link" data-ar="مشاريعنا" data-en="Projects">مشاريعنا</a></li>
+                    <li><a href="store.html" class="nav-link" data-ar="المتجر" data-en="Store">المتجر</a></li>
+                    <li><a href="contact.html" class="nav-link" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
+                </ul>
+
+                <!-- Nav Actions -->
+                <div class="nav-actions">
+                    <!-- Cart Icon -->
+                    <button class="cart-btn" id="cart-btn" aria-label="Shopping Cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+
+                    <!-- Language Toggle -->
+                    <button class="lang-btn" id="lang-toggle">
+                        <span class="lang-text">English</span>
+                        <i class="fas fa-globe"></i>
+                    </button>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============ HERO SECTION / SLIDER ============ -->
+    <section id="hero" class="hero-section">
+        <!-- Slides -->
+        <div class="hero-slider" id="hero-slider">
+            <!-- Slide 1 -->
+            <div class="hero-slide active" data-index="0">
+                <div class="slide-bg">
+                    <img src="our images/hero 3.webp" alt="Solar panels and wind turbine" class="slide-img">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide-content">
+                    <h1 class="hero-title" data-ar="توريد وتركيب الطلمبات الغاطسة ومواتير آبار المياه الجوفية"
+                        data-en="Supply & Installation of Submersible Pumps and Groundwater Well Motors">
+                        توريد وتركيب الطلمبات الغاطسة ومواتير آبار المياه الجوفية
+                    </h1>
+                    <p class="hero-subtitle"
+                        data-ar="نوفر كبرى الماركات العالمية لطلمبات الآبار بجميع القدرات الحصانية، لضمان أعلى معدل تدفق مائي مستدام."
+                        data-en="We provide top global brands of well pumps in all horsepower capacities, ensuring the highest sustainable water flow rate.">
+                        نوفر كبرى الماركات العالمية لطلمبات الآبار بجميع القدرات الحصانية، لضمان أعلى معدل تدفق مائي
+                        مستدام.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide" data-index="1">
+                <div class="slide-bg">
+                    <img src="our images/hero-background-1.webp" alt="Water splash" class="slide-img">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide-content">
+                    <h1 class="hero-title" data-ar="حلول متكاملة لحفر وتطهير الآبار الجوفية"
+                        data-en="Integrated Solutions for Drilling & Purifying Groundwater Wells">
+                        حلول متكاملة لحفر وتطهير الآبار الجوفية
+                    </h1>
+                    <p class="hero-subtitle"
+                        data-ar="نقدم خدمات حفر الآبار الارتوازية وتطهيرها بأحدث التقنيات لضمان جودة المياه واستدامتها."
+                        data-en="We offer artesian well drilling and purification services using the latest technologies to ensure water quality and sustainability.">
+                        نقدم خدمات حفر الآبار الارتوازية وتطهيرها بأحدث التقنيات لضمان جودة المياه واستدامتها.
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="hero-slide" data-index="2">
+                <div class="slide-bg">
+                    <img src="our images/hero4.webp" alt="Water splash" class="slide-img">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide-content">
+                    <h1 class="hero-title" data-ar="حلول متكاملة لحفر وتطهير الآبار الجوفية"
+                        data-en="Integrated Solutions for Drilling & Purifying Groundwater Wells">
+                        حلول متكاملة لحفر وتطهير الآبار الجوفية
+                    </h1>
+                    <p class="hero-subtitle"
+                        data-ar="نقدم خدمات حفر الآبار الارتوازية وتطهيرها بأحدث التقنيات لضمان جودة المياه واستدامتها."
+                        data-en="We offer artesian well drilling and purification services using the latest technologies to ensure water quality and sustainability.">
+                        نقدم خدمات حفر الآبار الارتوازية وتطهيرها بأحدث التقنيات لضمان جودة المياه واستدامتها.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Navigation Arrows -->
+        <button class="slider-arrow slider-arrow-prev" id="slider-prev" aria-label="Previous Slide">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <button class="slider-arrow slider-arrow-next" id="slider-next" aria-label="Next Slide">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <!-- Slider Dots -->
+        <div class="slider-dots" id="slider-dots">
+            <button class="slider-dot active" data-slide="0" aria-label="Go to slide 1"></button>
+            <button class="slider-dot" data-slide="1" aria-label="Go to slide 2"></button>
+        </div>
+    </section>
+
+    <!-- ============ STATS COUNTER SECTION ============ -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <!-- Stat 1 -->
+                <div class="stat-card" data-target="989" data-suffix="+">
+                    <div class="stat-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <span class="stat-number" data-ar="بئر محفور" data-en="Wells Drilled">0</span>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label" data-ar="بئر محفور" data-en="Wells Drilled">بئر محفور</p>
+                </div>
+                <!-- Stat 2 -->
+                <div class="stat-card" data-target="27" data-suffix="+">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <span class="stat-number">0</span>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label" data-ar="سنة خبرة" data-en="Years of Experience">سنة خبرة</p>
+                </div>
+                <!-- Stat 3 -->
+                <div class="stat-card" data-target="1377" data-suffix="+">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <span class="stat-number">0</span>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label" data-ar="عميل راضي" data-en="Happy Clients">عميل راضي</p>
+                </div>
+                <!-- Stat 4 -->
+                <div class="stat-card" data-target="989" data-suffix="+">
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <span class="stat-number">0</span>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label" data-ar="مشروع مكتمل" data-en="Completed Projects">مشروع مكتمل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT / INFO SECTION ============ -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <!-- About Image -->
+                <div class="about-image-wrapper">
+                    <img src="our images/about.webp" alt="Elnile - About Us" class="about-image">
+                    <div class="about-image-accent"></div>
+                </div>
+                <!-- About Content -->
+                <div class="about-content">
+                    <h2 class="section-title"
+                        data-ar="منظومة متكاملة في حفر وتطهير الآبار الجوفية وتطوير مصادر الطاقة المتجددة"
+                        data-en="Integrated System for Drilling & Purifying Groundwater Wells and Developing Renewable Energy Sources">
+                        منظومة متكاملة في حفر وتطهير الآبار الجوفية وتطوير مصادر الطاقة المتجددة
+                    </h2>
+                    <p class="about-text"
+                        data-ar="تلتزم النيل بتقديم بنية تحتية مائية متكاملة للمشاريع الاستثمارية والزراعية. تبدأ عملياتنا التنفيذية من الدراسات الجيوفيزيائية الاستكشافية وتحديد الطبقات الصخرية الحاملة للمياه الجوفية، مروراً بإنشاء الآبار الإنتاجية وتطهيرها برغوة الحفر المعتمدة، وصولاً إلى تركيب محطات الطاقة الكهروضوئية ومستلزمات الرفع الهيدروليكي. نوفر تشخيصاً رقمياً للمشاكل الفنية عبر كاميرات تصوير الآبار التلفزيونية لضمان استدامة الري."
+                        data-en="Elnile is committed to providing integrated water infrastructure for investment and agricultural projects. Our operations start with exploratory geophysical studies and identifying rock layers carrying groundwater, through building production wells and purifying them with approved drilling foam, to installing photovoltaic power stations and hydraulic lifting supplies. We provide digital diagnostics for technical problems through TV well imaging cameras to ensure irrigation sustainability.">
+                        تلتزم النيل بتقديم بنية تحتية مائية متكاملة للمشاريع الاستثمارية والزراعية. تبدأ عملياتنا
+                        التنفيذية من الدراسات الجيوفيزيائية الاستكشافية وتحديد الطبقات الصخرية الحاملة للمياه الجوفية،
+                        مروراً بإنشاء الآبار الإنتاجية وتطهيرها برغوة الحفر المعتمدة، وصولاً إلى تركيب محطات الطاقة
+                        الكهروضوئية ومستلزمات الرفع الهيدروليكي. نوفر تشخيصاً رقمياً للمشاكل الفنية عبر كاميرات تصوير
+                        الآبار التلفزيونية لضمان استدامة الري.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US SECTION ============ -->
+    <section id="why-us" class="why-section">
+        <div class="container">
+            <h2 class="section-title-center" data-ar="لماذا تختار النيل؟" data-en="Why Choose Elnile?">لماذا تختار
+                النيل؟</h2>
+            <div class="why-grid">
+                <!-- Feature 1 -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3 class="why-title" data-ar="الخبرة" data-en="Experience">الخبرة</h3>
+                    <p class="why-text"
+                        data-ar="تكامل الأداء الهندسي عبر الفحص الجيوفيزيائي الرقمي لطبقات الأرض وإجراء تجارب ضخ الآبار لتحديد السعة النوعية بدقة."
+                        data-en="Integrated engineering performance through digital geophysical inspection of ground layers and conducting well pump tests to accurately determine specific capacity.">
+                        تكامل الأداء الهندسي عبر الفحص الجيوفيزيائي الرقمي لطبقات الأرض وإجراء تجارب ضخ الآبار لتحديد
+                        السعة النوعية بدقة.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-check-double"></i>
+                    </div>
+                    <h3 class="why-title" data-ar="الجودة" data-en="Quality">الجودة</h3>
+                    <p class="why-text"
+                        data-ar="نلتزم بتوريد أفضل مضخات أعماق في مصر بما في ذلك طلمبات غاطسة قيراط ومضخات شاكتي الهندية لضمان حلول مستدامة."
+                        data-en="We are committed to supplying the best deep pumps in Egypt, including carat submersible pumps and Shakti Indian pumps to ensure sustainable solutions.">
+                        نلتزم بتوريد أفضل مضخات أعماق في مصر بما في ذلك طلمبات غاطسة قيراط ومضخات شاكتي الهندية لضمان
+                        حلول مستدامة.
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="why-title" data-ar="الابتكار" data-en="Innovation">الابتكار</h3>
+                    <p class="why-text"
+                        data-ar="فريق من الخبراء جاهز لتقديم استشارات فنية مجانية لمساعدتك في كل مراحل مشروعك، من الفكرة وحتى التشغيل."
+                        data-en="A team of experts ready to provide free technical consultations to help you at every stage of your project, from idea to operation.">
+                        فريق من الخبراء جاهز لتقديم استشارات فنية مجانية لمساعدتك في كل مراحل مشروعك، من الفكرة وحتى
+                        التشغيل.
+                    </p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="why-title" data-ar="الموثوقية" data-en="Reliability">الموثوقية</h3>
+                    <p class="why-text"
+                        data-ar="نقدم حلول متكاملة للمزارع والمشاريع تشمل توريد مواسير وكابلات آبار المياه وكل ما يلزم لتشغيل مشروعك بنجاح."
+                        data-en="We provide integrated solutions for farms and projects including supplying pipes and water well cables and everything needed to run your project successfully.">
+                        نقدم حلول متكاملة للمزارع والمشاريع تشمل توريد مواسير وكابلات آبار المياه وكل ما يلزم لتشغيل
+                        مشروعك بنجاح.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CUSTOMER OPINIONS / TESTIMONIALS ============ -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-center" data-ar="آراء العملاء" data-en="Customer Reviews">آراء العملاء</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" data-ar="شهادات نعتز بها من عملائنا الذين وضعوا ثقتهم في خدماتنا."
+                    data-en="Testimonials we are proud of from our clients who trusted our services.">
+                    شهادات نعتز بها من عملائنا الذين وضعوا ثقتهم في خدماتنا.
+                </p>
+            </div>
+            <div class="testimonials-slider-wrapper">
+                <div class="testimonials-slider" id="testimonials-slider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card active">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <span>ح</span>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="testimonial-name" data-ar="حسن ملاح" data-en="Hasan Malah">حسن ملاح</h4>
+                                <span class="testimonial-role" data-ar="مراجعة واحدة" data-en="One review">مراجعة
+                                    واحدة</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <span class="testimonial-time" data-ar="قبل سنتين" data-en="2 years ago">قبل سنتين</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text"
+                            data-ar="الله ينور يا بشمهندس، بصراحة ناس محترمة جداً وخدمة ممتازة ومواعيد تمام وشغل ١٠٠٪"
+                            data-en="Excellent work, very professional team with outstanding service, great timing and 100% quality work">
+                            الله ينور يا بشمهندس، بصراحة ناس محترمة جداً وخدمة ممتازة ومواعيد تمام وشغل ١٠٠٪
+                        </p>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar avatar-blue">
+                                <span>م</span>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="testimonial-name" data-ar="محمد أحمد" data-en="Mohamed Ahmed">محمد أحمد</h4>
+                                <span class="testimonial-role" data-ar="مراجعة واحدة" data-en="One review">مراجعة
+                                    واحدة</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <span class="testimonial-time" data-ar="قبل سنة" data-en="1 year ago">قبل سنة</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text"
+                            data-ar="شركة ممتازة ومحترمة، تعاملت معاهم في حفر بئر وكانت النتيجة أكثر من رائعة. أنصح الجميع بالتعامل معهم."
+                            data-en="Excellent and professional company. I dealt with them for well drilling and the result was more than wonderful. I recommend everyone to deal with them.">
+                            شركة ممتازة ومحترمة، تعاملت معاهم في حفر بئر وكانت النتيجة أكثر من رائعة. أنصح الجميع
+                            بالتعامل معهم.
+                        </p>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar avatar-green">
+                                <span>أ</span>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="testimonial-name" data-ar="أحمد سعيد" data-en="Ahmed Saeed">أحمد سعيد</h4>
+                                <span class="testimonial-role" data-ar="مراجعتان" data-en="Two reviews">مراجعتان</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <span class="testimonial-time" data-ar="قبل ٦ أشهر" data-en="6 months ago">قبل ٦ أشهر</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text"
+                            data-ar="خدمة رائعة وفريق عمل محترف. قاموا بحفر البئر وتركيب الطلمبة في وقت قياسي وبجودة عالية جداً."
+                            data-en="Great service and professional team. They drilled the well and installed the pump in record time with very high quality.">
+                            خدمة رائعة وفريق عمل محترف. قاموا بحفر البئر وتركيب الطلمبة في وقت قياسي وبجودة عالية جداً.
+                        </p>
+                    </div>
+                </div>
+                <!-- Testimonial Arrows -->
+                <button class="testimonial-arrow testimonial-prev" id="testimonial-prev" aria-label="Previous Review">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <button class="testimonial-arrow testimonial-next" id="testimonial-next" aria-label="Next Review">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+            <div class="testimonials-cta">
+                <a href="contact.html" class="btn-dark" data-ar="شاركنا برأيك" data-en="Share Your Opinion">
+                    <i class="fas fa-comment-dots"></i>
+                    شاركنا برأيك
+                    <i class="fas fa-star"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PARTNERS SECTION ============ -->
+    <section id="partners" class="partners-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="partners-title-wrapper">
+                    <span class="title-line"></span>
+                    <h2 class="section-title-center" data-ar="شركاء النجاح" data-en="Success Partners">شركاء النجاح</h2>
+                    <span class="title-line"></span>
+                </div>
+                <p class="section-subtitle" data-ar="نفخر بالثقة التي منحنا إياها كبار العملاء في مختلف القطاعات."
+                    data-en="We are proud of the trust given to us by major clients across various sectors.">
+                    نفخر بالثقة التي منحنا إياها كبار العملاء في مختلف القطاعات.
+                </p>
+            </div>
+            <div class="partners-marquee-wrapper">
+                <!-- Row 1 - scrolling right -->
+                <div class="partners-marquee" data-direction="right">
+                    <div class="partners-track">
+                        <div class="partner-logo"><span>Hilton</span></div>
+                        <div class="partner-logo"><span>Cairo 3A</span></div>
+                        <div class="partner-logo"><span>MISR Glass</span></div>
+                        <div class="partner-logo"><span>مؤسسة مصر الخير</span></div>
+                        <div class="partner-logo"><span>ممفيس</span></div>
+                        <div class="partner-logo"><span>مظلوم</span></div>
+                        <div class="partner-logo"><span>Stella Di Mare</span></div>
+                        <div class="partner-logo"><span>المقاولون العرب</span></div>
+                        <!-- Duplicated for seamless loop -->
+                        <div class="partner-logo"><span>Hilton</span></div>
+                        <div class="partner-logo"><span>Cairo 3A</span></div>
+                        <div class="partner-logo"><span>MISR Glass</span></div>
+                        <div class="partner-logo"><span>مؤسسة مصر الخير</span></div>
+                        <div class="partner-logo"><span>ممفيس</span></div>
+                        <div class="partner-logo"><span>مظلوم</span></div>
+                        <div class="partner-logo"><span>Stella Di Mare</span></div>
+                        <div class="partner-logo"><span>المقاولون العرب</span></div>
+                    </div>
+                </div>
+                <!-- Row 2 - scrolling left -->
+                <div class="partners-marquee" data-direction="left">
+                    <div class="partners-track reverse">
+                        <div class="partner-logo"><span>مظلوم</span></div>
+                        <div class="partner-logo"><span>Hilton</span></div>
+                        <div class="partner-logo"><span>ممفيس</span></div>
+                        <div class="partner-logo"><span>Cairo 3A</span></div>
+                        <div class="partner-logo"><span>Stella Di Mare</span></div>
+                        <div class="partner-logo"><span>MISR Glass</span></div>
+                        <div class="partner-logo"><span>مؤسسة مصر الخير</span></div>
+                        <div class="partner-logo"><span>المقاولون العرب</span></div>
+                        <!-- Duplicated for seamless loop -->
+                        <div class="partner-logo"><span>مظلوم</span></div>
+                        <div class="partner-logo"><span>Hilton</span></div>
+                        <div class="partner-logo"><span>ممفيس</span></div>
+                        <div class="partner-logo"><span>Cairo 3A</span></div>
+                        <div class="partner-logo"><span>Stella Di Mare</span></div>
+                        <div class="partner-logo"><span>MISR Glass</span></div>
+                        <div class="partner-logo"><span>مؤسسة مصر الخير</span></div>
+                        <div class="partner-logo"><span>المقاولون العرب</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Footer Col 1 - About -->
+                <div class="footer-col footer-about">
+                    <a href="#" class="footer-logo">
+                        <img src="our images/logo.png" alt="Elnile Logo" class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <span class="footer-logo-name" data-ar="النيل" data-en="Elnile">النيل</span>
+                            <span class="footer-logo-tagline" data-ar="للمقاولات العامة"
+                                data-en="General Contracting">للمقاولات العامة</span>
+                        </div>
+                    </a>
+                    <p class="footer-desc"
+                        data-ar="النيل هي شركة مصرية رائدة متخصصة في حفر وصيانة وتأهيل آبار المياه الجوفية وتقديم حلول متكاملة للطاقة الشمسية. نفخر بتقديم خدمات عالية الجودة تعتمد على أحدث التقنيات والمعايير الهندسية لتلبية احتياجات عملائنا في مختلف أنحاء الجمهورية."
+                        data-en="Elnile is a leading Egyptian company specializing in drilling, maintaining and rehabilitating groundwater wells and providing integrated solar energy solutions. We pride ourselves on providing high-quality services based on the latest technologies and engineering standards to meet our clients' needs across the country.">
+                        النيل هي شركة مصرية رائدة متخصصة في حفر وصيانة وتأهيل آبار المياه الجوفية وتقديم حلول متكاملة
+                        للطاقة الشمسية. نفخر بتقديم خدمات عالية الجودة تعتمد على أحدث التقنيات والمعايير الهندسية لتلبية
+                        احتياجات عملائنا في مختلف أنحاء الجمهورية.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Footer Col 2 - Quick Links -->
+                <div class="footer-col">
+                    <h3 class="footer-heading" data-ar="روابط سريعة" data-en="Quick Links">
+                        <span class="heading-dot"></span>
+                        روابط سريعة
+                    </h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html" data-ar="من نحن" data-en="About Us">من نحن</a></li>
+                        <li><a href="services.html" data-ar="خدماتنا" data-en="Our Services">خدماتنا</a></li>
+                        <li><a href="projects.html" data-ar="مشاريعنا" data-en="Our Projects">مشاريعنا</a></li>
+                        <li><a href="store.html" data-ar="المتجر" data-en="Store">المتجر</a></li>
+                        <li><a href="contact.html" data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Col 3 - Location -->
+                <div class="footer-col">
+                    <h3 class="footer-heading" data-ar="الموقع" data-en="Location">
+                        <span class="heading-dot"></span>
+                        الموقع
+                    </h3>
+                    <div class="footer-contact-list">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-text">
+                                <span class="contact-label" data-ar="المقر الرئيسي" data-en="Main Office">المقر
+                                    الرئيسي</span>
+                                <p data-ar="الإسماعيلية، المحسمة القديمة" data-en="Ismailia, Old Mahsama">الإسماعيلية،
+                                    المحسمة القديمة</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-text">
+                                <span class="contact-label" data-ar="المقر الفرعي" data-en="Branch Office">المقر
+                                    الفرعي</span>
+                                <p data-ar="المنيا، بجوار كوبري ملوي" data-en="Minya, next to Mallawi Bridge">المنيا،
+                                    بجوار كوبري ملوي</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Col 4 - Contact -->
+                <div class="footer-col">
+                    <h3 class="footer-heading" data-ar="اتصل بنا" data-en="Contact Us">
+                        <span class="heading-dot"></span>
+                        اتصل بنا
+                    </h3>
+                    <div class="footer-contact-list">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="contact-text">
+                                <span class="contact-label" data-ar="رقم الهاتف" data-en="Phone Number">رقم
+                                    الهاتف</span>
+                                <a href="tel:010000000000" dir="ltr">010000000000</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <span class="contact-label" data-ar="البريد الإلكتروني" data-en="Email">البريد
+                                    الإلكتروني</span>
+                                <a href="mailto:elnile@gmail.com" dir="ltr">elnile@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright" data-ar="© 2026 النيل للمقاولات العامة. جميع الحقوق محفوظة."
+                        data-en="© 2026 Elnile General Contracting. All rights reserved.">
+                        © 2026 النيل للمقاولات العامة. جميع الحقوق محفوظة.
+                    </p>
+                    <div class="footer-bottom-links">
+                        <a href="#" data-ar="الشروط والأحكام" data-en="Terms & Conditions">الشروط والأحكام</a>
+                        <a href="#" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============ WHATSAPP FLOATING BUTTON ============ -->
+    <a href="https://wa.me/201234567890" class="whatsapp-float" id="whatsapp-btn" target="_blank"
+        rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
